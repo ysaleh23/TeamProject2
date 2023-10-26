@@ -1,0 +1,8 @@
+
+// Yousef's solution
+return (big*5 + small < goal)? false :(goal % 5 <= small)?  true :  false;
+
+// Orkhan's Solution
+
+return (big*5 + small < goal)? false :(goal % 5 <= small)?  true :  false;
+}   
