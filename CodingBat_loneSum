@@ -1,0 +1,9 @@
+// Orkhan's Solution
+
+public int loneSum(int a, int b, int c) {
+int num=0;
+if(a==b && b==c)
+return 0;
+num = (a==b)? c :(b==c)? a :(a==c) ? b :(a+b+c);
+return num;
+}
