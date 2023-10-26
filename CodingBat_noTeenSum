@@ -1,0 +1,23 @@
+//Hande's Solution
+
+public int noTeenSum(int a, int b, int c) {
+ int sum = 0;
+  
+  int[] arr = {a,b,c};
+  
+  for(int each : arr){
+    if(each >=13 && each<=19){
+      sum +=0;
+      
+      if(each ==15){
+        sum +=15;
+      }
+      if(each ==16){
+        sum +=16;
+      }
+    }else{
+   sum +=each;
+  }
+  } 
+  return sum;
+}
