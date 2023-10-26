@@ -1,0 +1,7 @@
+// Hande's Solution
+
+public int loneSum(int a, int b, int c) {
+  
+  return (a==b && a==c)? 0:(a==b)? c:(a==c)? b:(b==c)? a:a+b+c;
+    
+}
