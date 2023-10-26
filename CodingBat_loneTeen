@@ -7,3 +7,10 @@ public boolean loneTeen(int a, int b) {
   
   return result; 
 }
+
+//Orkhan's solution:
+public boolean loneTeen(int a, int b) {
+     boolean a_age = (a >= 13 && a <= 19);
+  boolean b_age = (b >= 13 && b <= 19);
+  return (a_age && !b_age) || (!a_age && b_age);
+}
