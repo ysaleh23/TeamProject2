@@ -1,4 +1,13 @@
 public String delDel(String str) {
+
+// Yousef's Solution:
+
+  if(str.length() > 3 && str.substring(1,4).contains("del")){
+    str.replace("del","");
+  }
+  return str;
+
+// Orkhan's Solution:
   String result = "";
   if (str.length()>3 && str.substring(1, 4).contains("del")) {
     result += str.substring(0,1)+str.substring(4);
@@ -6,4 +15,5 @@ public String delDel(String str) {
     return str;
   }
   return result;
+
 }
