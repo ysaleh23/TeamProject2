@@ -1,0 +1,3 @@
+                                        
+return (big*5 + small < goal)? false :(goal % 5 <= small)?  true :  false;
+}   
